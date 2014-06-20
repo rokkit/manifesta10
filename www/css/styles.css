@@ -1,0 +1,99 @@
+.small-text {
+	font-size: .8em;
+}
+.gray {
+	color: #555;
+}
+.center-text {
+	text-align: center;
+}
+
+.slogan {
+	font-size: .6em;
+	margin: 4px 2px;
+}
+
+.navigation {
+	font-size: .6em;
+	border-top: 1px solid #555;
+	margin: 0;
+}
+.navigation li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+.navigation li.current a {
+	color: #FF6300;;
+}
+
+.ui-content {
+	padding-top:0;
+}
+/* Welcome page */
+
+.welcome {
+	margin: 8em 0;
+	padding: 0 2em;
+}
+
+.welcome p {
+	color: #FF6300;
+	font-size: 1.3em;
+	text-align: center;
+	line-height: 1.7;
+}
+
+fieldset.lang-select {
+	margin: 2em 0;
+}
+
+.supporters {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.supporters li {
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	width: 32%;
+}
+.supporters li img {
+	width: auto;
+	display: inline;
+}
+
+/* main menu page */
+
+.main-manu-img {
+	margin: 3.5em 0;
+}
+
+/* Player page */
+.ui-page-theme-a .ui-btn.sm2_link {
+	background: url(img/btn-play.gif) no-repeat 100% 6px;
+}
+.ui-page-theme-a .ui-btn.sm2_paused {
+	background: url(img/btn-pause.gif) no-repeat 100% 6px;
+}
+.ui-page-theme-a .ui-btn.sm2_playing {
+	background: url(img/btn-playing.gif) no-repeat 100% 6px;
+}
+
+/* Footer */
+.ui-page-theme-a .ui-footer {
+	border-top: 2px solid #555;
+}
+
+.ui-footer p {
+	font-weight: normal;
+	text-align: center;
+}
+
+.footer-lang {
+	margin: 0;
+}
+.footer-lang a {
+	font-size: .6em;
+}
